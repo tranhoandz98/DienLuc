@@ -1,0 +1,268 @@
+@font-face{
+	font-family: 'OpensanBS';
+	src: url('../fonts/font-open-sans/OpenSans-Semibold.ttf');
+}
+@font-face{
+	font-family: 'extraB';
+	src: url('../fonts/font-open-sans/OpenSans-ExtraBold.ttf');
+}
+@font-face{
+	font-family: 'OpensanB';
+	src: url('../fonts/font-open-sans/OpenSans-Bold.ttf');
+}
+@font-face{
+	font-family: 'OpensanI';
+	src: url('../fonts/font-open-sans/OpenSans-Italic.ttf');
+}
+@font-face{
+	font-family: 'Opensan';
+	src: url('../fonts/font-open-sans/OpenSans-Regular.ttf');
+}
+@font-face{
+	font-family: 'OpensanIB';
+	src: url('../fonts/font-open-sans/OpenSans-BoldItalic.ttf');
+}
+*{
+	font-family: Opensan
+}
+header{
+	background: #726b65;
+	height: 128px
+}
+/* menu */
+header .menu{
+	text-align: center
+}
+header .menu ul{
+	margin: 0
+}
+header .menu ul li{
+	display: inline-block;
+	padding: 54px 18px;
+	margin: 0;
+	position: relative;
+
+}
+header .menu ul li a{
+	text-transform: uppercase;
+	color:  #fff;
+	font-family: OpensanBS;
+	text-decoration: none
+}
+header ul li:hover, .menu .active {
+	background: #a6b911;
+	border-bottom: 6px solid #99aa10
+}
+header ul li ul{
+	display: none;
+	position: absolute;
+	top: 128px;
+	left: -40px;
+}
+header .menu ul li ul li{
+	width: 205px;
+	padding: 10px;
+	border-bottom: 1px solid #000
+}
+header .menu ul li ul li a{
+	color: #000;
+}
+header .menu ul li:hover ul{
+	display: block
+}
+/* logo */
+header .logo{
+	padding: 31px
+}
+/* banner */
+.banner{
+	margin-top: 5px
+}
+.banner .text{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	width: 500px;
+}
+.banner .text h1{
+	text-transform: uppercase;
+	font-family: extraB;
+	font-size: 60px
+}
+.banner .text h3{
+	text-transform: uppercase;
+	font-family: OpensanB;
+	font-size: 30px
+}
+.banner .text p{
+	font-family: OpensanI
+}
+.text button{
+	background: #a6b911;
+	color: #fff;
+	border: none;
+	border-radius: 0
+}
+main .doi-tac{
+	text-align: center;
+	width: 640px;
+	margin: 0 auto;
+	text-transform: uppercase
+}
+main .doi-tac h3{
+	font-family: OpensanB
+}
+main .doi-tac h3 span{
+	font-family: OpensanB;
+	color: #a6b911;
+}
+main .doi-tac button{
+	background: #a6b911;
+	color: #fff;
+	border: none;
+	border-radius: 0
+		}
+.than{
+	background: #f6f6f4;
+	padding: 20px 0
+}
+.than .tieu-de{
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: OpensanBS;
+
+}
+.than .gioi-thieu h4, .than .hang-muc h4{
+	text-transform: uppercase;
+	font-family: OpensanB
+}
+.than .gioi-thieu button, .than .hang-muc button{
+	background: #726b65;
+	color: #fff;
+	border: none;
+	border-radius: 0
+}
+.than .gioi-thieu p{
+	font-size: 13px
+}
+.than .line{
+	margin-top: 30px
+}
+.hang-muc img{
+	margin-bottom: 30px
+}
+.hang-muc .mau{
+	font-family: extraB;
+	text-transform: uppercase;
+	color: #b9c858
+}
+.cuoi .tieu-de{
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+	font-family: OpensanB
+}
+.cuoi .lanh-dao p{
+	margin:  0;
+}
+.cuoi .lanh-dao .chuc-vu{
+	text-transform: uppercase;
+	font-family: OpensanB
+}
+.cuoi .lanh-dao .ten{
+	font-family: OpensanIB
+
+}
+.cuoi .lanh-dao .infoo{
+	padding-top: 10px
+}
+.lua-chon .danh-muc .icon{
+	display: inline-block;
+	font-size: 28px;
+	padding-right: 15px;
+}
+.lua-chon .danh-muc p{
+	font-family: OpensanB;
+	color: #726b65;
+	padding-top: 10px
+}
+
+.lua-chon .danh-muc span{
+		font-family: OpensanB;
+	position: absolute;
+	top: 33px;
+}
+.lua-chon .danh-muc{
+	border-bottom: 1px solid #f0f0f0;
+	padding: 23px 0;
+	position: relative;
+}
+.danh-gia .comment{
+	position: relative;
+	padding-top: 20px
+}
+.danh-gia .text{
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+	font-family: OpensanB;
+	font-style: italic;
+	color: #7c7c7c
+}
+.danh-gia .infoo {
+	padding-top: 10px
+}
+.danh-gia .infoo p{
+	font-family: OpensanB;
+	margin-bottom: 5px
+}
+.danh-gia .infoo .ten{
+	color: #adbe32
+}
+/* css foooter */
+footer{
+	background: #726b65;
+	color: #fff
+}
+footer .vien{
+	border-top: 5px solid #a6b911;
+	padding-top: 57px
+}
+.vien .menu ul{
+	padding-inline-start: 0
+}
+
+.vien .menu ul li{
+	list-style: none;
+	padding-bottom: 35px
+}
+.vien .menu ul .nav-main a{
+	color: #2c2c2c;
+	font-family: OpensanB;
+	font-size: 20px
+}
+.vien .menu ul li a{
+	color: #fff;
+	text-transform: uppercase;
+}
+footer .thong-tin i{
+	color: #a6b911;
+	font-size: 20px
+}
+footer .thong-tin span{
+	display: block
+}
+footer .icon .ion{
+	display: inline-block;
+	
+	background: #a5a5a5;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	line-height: 33px;
+	text-align: center;
+}
+footer .icon .ion a{
+	color: #fff;
+}
